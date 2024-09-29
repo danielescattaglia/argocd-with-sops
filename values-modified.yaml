@@ -302,7 +302,7 @@ repoServer:
     - name: sops-gpg
       secret:
         defaultMode: 420
-        secretName: sops-gpg
+        secretName: argocd-secret
   volumeMounts:
     - mountPath: /usr/local/bin/esops
       name: custom-tools
